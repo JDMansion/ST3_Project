@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Empire</title>
+</head>
+<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+		font-family: Century Gothic;
+	}
+	header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1.jpg"); 
+		background-size: cover;
+		height: 100vh;
+		background-position: center;
+	}
+	ul {
+		list-style-type: none;
+		float: right;
+		margin-top: 25px;
+	}
+	ul li {
+		display: inline-block;
+	}
+	ul li a {
+		font-family: sans-serif;
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 20px;
+		border: 1px solid transparent;
+		transition: 0.6s ease;
+	}
+	ul li a:hover {
+		background-color: #fff;
+		color: #000;
+	}
+	.logo img {
+		float: left;
+		width: 150px;
+		height: auto;
+		margin-top: 10px;	
+		margin-left: 10px;
+		padding: 5px;
+	}
+	.main {
+		max-width: 1200px;
+		margin: auto;
+	}
+	ul li.active a {
+		background-color: #fff;
+		color: #000;
+	}
+	.title img {
+		width: auto;
+		height: 160px;
+		margin-left: 10%;
+		padding: 3px;
+	}
+	.title img:hover {
+		background-color: #abc;
+		color: #fff;
+	}
+	.title table {
+		margin-top: 30%;
+	}
+	.title img:hover {
+		filter: grayscale(0);
+		transform: scale(1.1);
+	}
+</style>
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/logo1.png">
+		</div>
+		<div  class="main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="food.html">Food</a></li>
+				<li class="active"><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>		
+			</ul>
+		</div>
+		<div class="title">
+			<table>
+				<tr>
+					<td><a href="images/tour-1.jpg"><img src="images/tour-1.jpg"></a></td>
+					<td><a href="images/tour-2.jpg"><img src="images/tour-2.jpg"></a></td>
+					<td><a href="images/tour-3.jpg"><img src="images/tour-3.jpg"></a></td>
+					<td><a href="images/tour-4.jpg"><img src="images/tour-4.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/tour-3.jpg"><img src="images/tour-3.jpg"></a></td>
+					<td><a href="images/tour-4.jpg"><img src="images/tour-4.jpg"></a></td>
+					<td><a href="images/tour-7.jpg"><img src="images/tour-7.jpg"></a></td>
+					<td><a href="images/tour-8.jpg"><img src="images/tour-8.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/tour-1.jpg"><img src="images/tour-1.jpg"></a></td>
+					<td><a href="images/tour-2.jpg"><img src="images/tour-2.jpg"></a></td>
+					<td><a href="images/tour-3.jpg"><img src="images/tour-3.jpg"></a></td>
+					<td><a href="images/tour-4.jpg"><img src="images/tour-4.jpg"></a></td>
+				</tr>
+			</table>
+		</div>
+	</header>
+</body>
+</html>

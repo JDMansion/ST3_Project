@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Empire</title>
+</head>
+<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+		font-family: Century Gothic;
+	}
+	header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1.jpg"); 
+		background-size: cover;
+		height: 100vh;
+		background-position: center;
+	}
+	ul {
+		list-style-type: none;
+		float: right;
+		margin-top: 25px;
+	}
+	ul li {
+		display: inline-block;
+	}
+	ul li a {
+		font-family: sans-serif;
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 20px;
+		border: 1px solid transparent;
+		transition: 0.6s ease;
+	}
+	ul li a:hover {
+		background-color: #fff;
+		color: #000;
+	}
+	.logo img {
+		float: left;
+		width: 150px;
+		height: auto;
+		margin-top: 10px;	
+		margin-left: 10px;
+		padding: 5px;
+	}
+	.main {
+		max-width: 1200px;
+		margin: auto;
+	}
+	ul li.active a {
+		background-color: #fff;
+		color: #000;
+	}
+	.title {
+		position: absolute;
+		top: 50%;
+		left: 42%;
+		transform: translate(-35%, -50%);
+	}
+	.title h1 {
+		color: #fff;
+		font-size: 70px;
+		font-family: sans-serif;
+	}
+	.title h2 {
+		color: #fff;
+		font-size: 40px;
+		margin-left: 35%;
+		font-family: fantasy;
+	}
+	.title h3 {
+		color: #Afb;
+		font-size: 70px;
+		font-family: serif;
+		margin-left: 25%;
+		margin-bottom: 5%;
+	}
+	.button {
+		position: absolute;
+		top: 72%;
+		left: 42%;
+		transform: translate(-20%, -50%);
+	}
+	.btn {
+		border: 1px solid #fff;
+		padding: 10px 30px;
+		color: #fff;
+		text-decoration: none;
+		transition: 0.6s ease;
+		font-family: sans-serif;
+	}
+	.btn:hover {
+		background-color: #fff;
+		color: #000;	
+	}
+</style>
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/logo1.png">
+		</div>
+		<div  class="main">
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="food.html">Food</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>	
+				<li><a href="signup.html">Sign Up</a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h3>Hotel Empire</h3>
+			<h2>|__  &nbspEmpires Are Not Build In One Day  &nbsp__|</h2>
+		</div>
+		<div class="button">
+			<b><a href="room.html" class="btn">BOOK ROOMS</a></b>
+			<b><a href="login.html" class="btn">ALREADY A CUSTOMER</a></b>
+		</div>
+	</header>
+</body>
+</html>
